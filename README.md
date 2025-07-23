@@ -1,7 +1,7 @@
 LCA Optimization Agent (FastAPI + GCP Pub/Sub)
 
 This project implements a lightweight  Optimization Agent as a REST API using FAST API, simulating an ADK-style agent. 
-It receives LCA data, applies simple optimization logic, and publishes optimization suggestions to a Google Cloud Pub/Sub topic for downstream consumption (by another agent like a HiL Agent).
+It receives LCA data, applies simple optimization logic, and publishes optimization suggestions to a Google Cloud Pub/Sub topic for downstream consumption (by another agent  HiL Agent).
 
 Features & Flow:
 -->A http endpoint to receive a lca crate data and processing logic to produce otimized suggestion 
