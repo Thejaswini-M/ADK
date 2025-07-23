@@ -1,0 +1,4 @@
+fastapi
+pydantic
+logging
+google-cloud-pubsub
