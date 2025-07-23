@@ -21,4 +21,13 @@ Folder Structure
 
   **Assuming the hil agent which is a another cloud run service is a subscriber to the optimized pubsub topic.
 
+**  Deploy Instructions **
+steps
+-->Create a cloud pub/sub topic on name optimization-suggestion-topic and make hil agent  service as a subscriber.
+-->Create a cloudbuild.yaml which  consists the step  to build  image and deploy container to cloud run as a service.
+-->create cloud build trigger  by mapping guthub source and  cloudbuild yaml as reference
+Test:
+-->perform a commit in github and observe or monitor the build in cloud build.
+
+
 
